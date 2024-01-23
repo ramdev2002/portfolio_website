@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramdev -Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 92);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgba(22, 22, 219, 0.863);
+            font-size: 1.04rem;
+        }
+        
+        main{
+            margin-bottom: 15em;
+        }
+        main hr {
+            border: 0;
+            background: rgb(16, 16, 155);
+            height: 0.2px;
+            margin: 3px 85px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+
+        .firstSection>div {
+            width: 34%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+            margin: 34px;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(34, 34, 91);
+        }
+
+        #element {
+            color: rgb(34, 34, 91);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 68vw;
+            height: 1px;
+            margin: 52px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 1px 100px;
+        }
+
+        .vertical-title {
+            position: relative;
+            margin-top: 80px;
+            /* Adjust this value */
+            width: 100px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            margin-top: 32px;
+            /* Adjust this value */
+            color: gray;
+            width: 16px;
+            font-size: 10px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            margin-top: -12px;
+            /* Adjust this value */
+            margin-left: -9px;
+        }
+
+        <!--footer-->
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin-top: 10em;
+            /* Add margin to separate from the content above */
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding:0em 5em;
+            /* Allow items to wrap to the next line on smaller screens */
+        }
+
+        .footer div {
+            width: 48%;
+            /* Adjust width for smaller screens */
+            margin-bottom: 20px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">Ramdev's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,My name is <span class="purple"> Ramdev</span>
+                <div>I'm Backend developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="develop.jpg" alt="">
+            </div>
+        </section>
+      
+        <hr>
+        <section class="secondSection">
+            <h1>Knowlegde Possess</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.jpg" alt="">
+                    <div class="vertical-title">
+                        HTML,CSS,JS
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="c-pro.jpg" alt="">
+                    <div class="vertical-title">
+                        C,C++,C#
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java & Spring FrameWork
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="database.png" alt="">
+                    <div class="vertical-title">
+                        DataBase
+                    </div>
+                    <div class="vertical-desc">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+  
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Developer</h3>
+                <p>Passionate about coding and creating innovative solutions.</p>
+            </div>
+            <div class="footer-second">
+                <h3>Contact</h3>
+                <p>Email: ramdev@example.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-third">
+                <h3>Social Media</h3>
+                <p><a href="#" target="_blank">LinkedIn</a></p>
+                <p><a href="#" target="_blank">GitHub</a></p>
+            </div>
+            <div class="footer-forth">
+                <h3>Location</h3>
+                <p>City, Country</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Back-End Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
